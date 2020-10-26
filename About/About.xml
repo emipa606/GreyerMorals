@@ -11,17 +11,22 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of sectoids mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of sectoids mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=864631239
 
-Support-chat:
-https://discord.gg/SuhwVpM
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/GreyerMorals
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/GreyerMorals][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-This mod reduces penalties for ill treating outsiders and cannibalism.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+This mod reduces penalties for ill treating outsiders and cannibalism. 
 
 
 Changes:
@@ -44,10 +49,9 @@ Observed laying corpse stack limit 3 &gt; 1
 Witness death for none ally now requires "Kind" trait
 Colonist banished now requires "Kind" trait
 Colonist banished to die -5 -&gt; -3
-Wearing dead man's apparel now requires "Kind" trait
+Wearing dead man's apparel  now requires "Kind" trait
 Wearing human leather now requires "Kind" trait
 
 Works with exisiting saves.
-Feel free to leave suggestions.
-</description>
+Feel free to leave suggestions.</description>
 </ModMetaData>
