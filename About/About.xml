@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Greyer morals (Continued)</name>
   <packageId>Mlie.GreyerMorals</packageId>
@@ -12,30 +12,55 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of sectoids mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=864631239
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/GreyerMorals][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
-This mod reduces penalties for ill treating outsiders and cannibalism. 
+This mod reduces penalties for ill treating outsiders and cannibalism.
 
 
 Changes:
 
+Cannibalism
+Eat human meat as ingredient -20 - -5
+Eat human meat raw -25 - -10
+Butchered humanlike corpse -6 - -3
+Know someone butchered humanlike corpse -6  -3
 
+Prisoners
+Know guest/prisoner executed now requires "Kind" trait
+Know prisoner died innocent now requires "Kind" trait
+Know guest/prisoner organ harvested now requries "Kind" trait
+Know prisoner sold -3 - 0
+Prisoner banished to die now requires "Kind" trait
 
+General
+Observed laying corpse stack limit 3  1
+Witness death for none ally now requires "Kind" trait
+Colonist banished now requires "Kind" trait
+Colonist banished to die -5 - -3
+Wearing dead man's apparel now requires "Kind" trait
+Wearing human leather now requires "Kind" trait
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+Works with exisiting saves.
+Feel free to leave suggestions.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -46,4 +71,3 @@ Changes:
 [/list]
 </description>
 </ModMetaData>
-
