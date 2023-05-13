@@ -1,35 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner"]</xpath>
+    <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner" or defName = "ExecutedPrisoner" or defName = "AteRawHumanlikeMeat" or defName = "ButcheredHumanlikeCorpseOpinion"]</xpath>
     <value>
       <requiredTraits>
         <li>Kind</li>
       </requiredTraits>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThoughtDef[defName = "ExecutedPrisoner"]</xpath>
-    <value>
-      <requiredTraits>
-        <li>Kind</li>
-      </requiredTraits>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThoughtDef[defName = "AteRawHumanlikeMeat"]</xpath>
-    <value>
-      <requiredTraits>
-        <li>Kind</li>
-      </requiredTraits>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpseOpinion"]</xpath>
-    <value>
-      <requiredTraits>
-        <li>Kind</li>
-      </requiredTraits>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName="CM_Beat_Prisoners_Thought_Prisoner_Beaten"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThoughtDef[defName = "CM_Beat_Prisoners_Thought_Prisoner_Beaten"]/stages/li/baseMoodEffect</xpath>
+      <value>
+        <baseMoodEffect>0</baseMoodEffect>
+      </value>
+    </match>
   </Operation>
 </Patch>

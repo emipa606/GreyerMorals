@@ -1,5 +1,8 @@
 # Changelog for GreyerMorals
 
+1.4.2 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2902220334]Beat Your Prisoners[/url]
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
