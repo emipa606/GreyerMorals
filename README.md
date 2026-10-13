@@ -52,4 +52,4 @@ Feel free to leave suggestions.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/GreyerMorals?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018947066) | tags: morality
+[![Image](https://img.shields.io/github/v/release/emipa606/GreyerMorals?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018947066) | morality
